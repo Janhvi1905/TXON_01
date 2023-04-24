@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-image: url("./image3.jpg");
+    height : 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    max-width: 1100px;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+    border:1px solid transparent; 
+}
+ul li a{
+    color: rgb(6, 6, 6);
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: monospace;
+}
+ul li a:hover{
+    background-color: pink;
+    color: black;
+    transition:0.6s ease;
+}
+.active{
+    background-color: white;
+    color: black;
+}
+.image2 img{
+    margin-top: 25px;
+}
+.center_text{
+    
+    margin-top: 250px;
+    margin-left: 150px;
+    font-weight: bold;
+}
+h1{
+    color: rgb(245, 235, 235);
+    font-size: 40px;
+    font-family:monospace;
+    
+}
+#bt1{
+    
+    border:1px solid rgb(7, 7, 7);
+    color: rgb(247, 242, 242);
+    padding: 2px;
+    text-decoration:none;
+    font-weight: bold;
+}
+#bt2{
+    
+    border:1px solid rgb(9, 9, 9);
+    color:rgb(249, 243, 243);
+    padding: 2px;
+    text-decoration : none;
+    font-weight: bold;
+}
+#bt1:hover{
+    background-color: pink;
+    color: black;
+    transition: 0.6s ease;
+}
+#bt2:hover{
+    background-color: pink;
+    color: black;
+    transition: 0.6s ease;
+}
